@@ -1,0 +1,33 @@
+# Build outputs
+/build/
+/out/
+*.obj
+*.o
+*.exe
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.dll
+*.so
+*.dylib
+*.a
+
+# Test / runtime artifacts
+/testing/
+*.ofab
+*.log
+/store/
+.journal/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+CMakeUserPresets.json
+
+# OS
+Thumbs.db
+.DS_Store
